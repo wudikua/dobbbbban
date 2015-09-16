@@ -1,0 +1,15 @@
+{
+	"require":{
+		"guzzlehttp/guzzle":"6.x",
+        "monolog/monolog":"1.x"
+	},
+	"repositories": [
+        {   
+            "packagist": false
+        },  
+        {   
+            "type": "composer", 
+            "url": "http://packagist.cn"
+        }   
+    ]
+}
