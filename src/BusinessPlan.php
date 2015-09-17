@@ -32,7 +32,7 @@ class BusinessPlan {
 			return;
 		}
 		$content = file_get_contents("ugg/content");
-		$result = $client->publish($groupId, "UGG原厂，威Queens_1125", $content, [
+		$result = $client->publish($groupId, "UGG原厂招兼职代理啊", $content, [
 			__DIR__.DIRECTORY_SEPARATOR."douban.jpg",
 			__DIR__.DIRECTORY_SEPARATOR."ugg/douban1.jpg",
 			__DIR__.DIRECTORY_SEPARATOR."ugg/douban2.jpg",
@@ -61,7 +61,7 @@ class BusinessPlan {
 			return;
 		}
 		$content = file_get_contents("hello/content");
-		$result = $client->publish($groupId, "香港5折包包，加威Queens_1125", $content, [
+		$result = $client->publish($groupId, "香港5折包包招兼职代理啊", $content, [
 			__DIR__.DIRECTORY_SEPARATOR."douban.jpg",
 			__DIR__.DIRECTORY_SEPARATOR."ugg/douban1.jpg",
 			__DIR__.DIRECTORY_SEPARATOR."ugg/douban2.jpg",
